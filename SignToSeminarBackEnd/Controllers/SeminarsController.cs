@@ -26,7 +26,7 @@ namespace SignToSeminarBackEnd.Controllers
         [HttpGet("{id}", Name = "Get")]
         public string Get(int id)
         {
-            return "value";
+            return "Value";
         }
 
         // POST: api/Seminars
